@@ -94,7 +94,7 @@ h1 {
 .btn.decrease:hover{
   background: var(--light-Blue);
 }
-@media (max-width: 768px) {
+@media (min-width: 768px) {
   .container {
     width: 50vh;
     min-height: 55vh;
