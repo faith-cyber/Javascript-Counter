@@ -16,7 +16,7 @@ import
 }
 
 body {
-  background: url(./image/mainBcg.jpeg) center/cover fixed no-repeat;
+  background: url(./img/mainBcg.jpeg) center/cover fixed no-repeat;
   color: var(--White);
   line-height: 1.5;
   font-size: 0.875rem;
