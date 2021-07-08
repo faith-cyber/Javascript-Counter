@@ -95,7 +95,7 @@ h1 {
   background: var(--light-Blue);
 }
 @media (max-width: 768px) {
-  body {
+  .container {
     width: 50vh;
     min-height: 55vh;
   }
