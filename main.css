@@ -94,11 +94,10 @@ h1 {
 .btn.decrease:hover{
   background: var(--light-Blue);
 }
-
-@media screen and (min-width: 800px) {
+@media (max-width: 768px) {
   body {
-    width: 60vh;
-    min-height: 75vh;
+    width: 50vh;
+    min-height: 55vh;
   }
 
 }
