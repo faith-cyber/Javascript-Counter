@@ -1,0 +1,103 @@
+import
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --White: #f5f5f5;
+  --Green: #7fb800;
+  --Blue: #0d2c54;
+  --light-Blue: #00a6ed;
+  --Black: #333333;
+}
+
+body {
+  background: url(./image/mainBcg.jpeg) center/cover fixed no-repeat;
+  color: var(--White);
+  line-height: 1.5;
+  font-size: 0.875rem;
+  place-items: center;
+  font-family: 'Courgette';
+  letter-spacing: 2px;
+}
+
+
+/*
+=============== 
+Counter
+===============
+*/
+
+main {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+.container {
+  border: 0.1rem solid var(--White);
+  box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.9);
+  border-radius: 0.2rem;
+  text-align: center;
+  width: 60vh;
+  min-height: 75vh;
+}
+
+#value {
+  font-size: 10rem;
+  font-weight: bold;
+  color: var(--Black);
+  position: relative;
+}
+
+h1 {
+  letter-spacing: var(--spacing);
+  text-transform: capitalize;
+  line-height: 1.25;
+  margin-bottom: 0.75rem;
+  margin: 1rem;
+  font-size: 3rem;
+  position: relative;
+  top: 15px;
+}
+
+.btn.decrease,
+.btn.increase {
+  box-shadow: 0 0.2rem 0.5rem rgba(0, 0, 0, 0.9);
+  background: var(--Blue);
+  color: var(--White);
+  text-transform: uppercase;
+  padding: 0.375rem 0.75rem;
+  display: inline-block;
+  font-size: 1.2rem;
+  cursor: pointer;
+  margin: 0.7rem;
+  border: 3px;
+  display: grid;
+  border-radius: 20px;
+}
+.btn.decrease{
+  margin-left: 125px;
+}
+.btn.increase{
+  margin-left: 140px;
+}
+
+.btn.increase:hover{
+  background: var(--light-Blue);
+}
+
+.btn.decrease:hover{
+  background: var(--light-Blue);
+}
+
+@media screen and (min-width: 800px) {
+  body {
+    font-size: rem;
+  }
+
+}
