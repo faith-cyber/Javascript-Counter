@@ -75,7 +75,7 @@ h1 {
   display: inline-block;
   font-size: 1.4rem;
   cursor: pointer;
-  margin: 0.7rem;
+  margin: 0.9rem;
   border: 3px;
   display: grid;
   border-radius: 20px;
@@ -84,7 +84,7 @@ h1 {
   margin-left: 105px;
 }
 .btn.increase{
-  margin-left: 120px;
+  margin-left: 124px;
 }
 
 .btn.increase:hover{
