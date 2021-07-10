@@ -81,10 +81,10 @@ h1 {
   border-radius: 20px;
 }
 .btn.decrease{
-  justify-content: center;
+  margin-left: 100px;
 }
 .btn.increase{
-  margin-left: 122px;
+  margin-left: 120px;
 }
 
 .btn.increase:hover{
